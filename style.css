@@ -9,6 +9,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+hr {
+  margin: 3rem 0rem;
+}
+/* @container */
 .container {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -19,7 +23,7 @@ body {
   margin: auto;
 }
 
-/** links **/
+/** @links **/
 .link-primary {
   color: white;
   text-decoration: none;
@@ -37,4 +41,46 @@ body {
   border-radius: 7px;
   text-decoration: none;
   margin-left: 1rem;
+}
+
+/* @lists */
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-inline {
+  list-style: none;
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.navbar {
+  background-color: #374151;
+  padding: 2rem 1rem;
+  border-radius: 0px 0px 0px 7px;
+}
+
+.brand-pill {
+  color: white;
+}
+
+.link {
+  list-style: none;
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.link-pills {
+  color: white;
+  text-decoration: none;
+}
+
+.link-block {
+  text-align: right;
+}
+
+.brand-pill {
+  font-weight: bold;
+  font-size: 1.1rem;
 }

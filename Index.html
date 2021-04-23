@@ -49,17 +49,18 @@
 
     <h2>@lists</h2>
     <h3>unordered lists</h3>
-    <ul>
+    <p>This list will not have the bullet</p>
+    <ul class="list-non-bullet">
       <li>List one</li>
       <li>List two</li>
       <li>List three</li>
     </ul>
 
     <h3>unordered inline lists</h3>
-    <ul>
-      <li>Inline list one</li>
-      <li>Inline list two</li>
-      <li>Inline list three</li>
+    <ul class="list-inline">
+      <li class="list-inline">Inline list one</li>
+      <li class="list-inline">Inline list two</li>
+      <li class="list-inline">Inline list three</li>
     </ul>
 
     <h3>Ordered lists</h3>
@@ -70,25 +71,30 @@
     </ol>
 
     <h3>Reverse ordered lists</h3>
-    <ol>
+    <!-- reversed--reverses the ordered list -->
+    <ol reversed>
       <li>List one</li>
       <li>List two</li>
       <li>List three</li>
     </ol>
 
     <hr />
-
-    <nav>
-      <div>&lt;h1&gt;Nikhil Kaul&lt;/h1&gt;</div>
-      <li>
-        <a href="/">Home</a>
-      </li>
-      <li>
-        <a href="/">Projects</a>
-      </li>
-      <li>
-        <a href="/">Blogs</a>
-      </li>
+    <h2>@nav</h2>
+    <nav class="navbar">
+      <div class="brand-pill">
+        <strong>&lt;h1&gt;Nikhil Kaul&lt;/h1&gt;</strong>
+      </div>
+      <div class="link-block">
+        <li class="link">
+          <a class="link-pills" href="/">Home</a>
+        </li>
+        <li class="link">
+          <a class="link-pills" href="/">Projects</a>
+        </li>
+        <li class="link">
+          <a class="link-pills" href="/">Blogs</a>
+        </li>
+      </div>
     </nav>
 
     <hr />
