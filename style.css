@@ -1,4 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+
+/* This is for entire page, :root and variables */
+/* :root{
+    --primary-colot: red;
+} */
+
 body {
   font-family: "Poppins", sans-serif;
+}
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.centercontainer {
+  max-width: 600px;
+  margin: auto;
+}
+
+/** links **/
+.link-primary {
+  color: white;
+  text-decoration: none;
+  background-color: #374151;
+  /* top right bottom left for padding */
+  padding: 0.5rem 1rem; /*top right*/
+  border-radius: 7px;
+}
+
+.link-secondary {
+  color: #374151;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  border: 1px solid #374151;
+  border-radius: 7px;
+  text-decoration: none;
+  margin-left: 1rem;
 }
